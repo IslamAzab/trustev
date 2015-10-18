@@ -95,6 +95,14 @@ module Trustev
     @@password
   end
 
+  def self.api_version=(api_version)
+    @@api_version = api_version
+  end
+
+  def self.api_version
+    @@api_version
+  end
+
   def self.shared_secret=(shared_secret)
     @@shared_secret = shared_secret
   end
